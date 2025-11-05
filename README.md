@@ -1,5 +1,9 @@
+<div align="center">
+
 # 🧠 North Design
 A stylish mobile-first business website in a black and white art theme.
+
+</div>
 
 ## 💡 Beskrivning
 This website was built by me and four other students for a project in a frontend course we had at the university.
@@ -17,9 +21,9 @@ for animating my elements and the circle tracking the mouse-pointer (not with pe
 
 On my employee page I am utilizing AXIOS to read the JSON data for my project handler.
 
+---
 
-
-## 🖼️ Demo
+## 🎥 Demo (YouTube)
 
 <p align="center">
   YouTube video showcasing the fullscreen version.
@@ -30,7 +34,9 @@ On my employee page I am utilizing AXIOS to read the JSON data for my project ha
   </a>
 </p>
 
-## 🖼️ Demo
+---
+
+## 🖼️ Screenshots
 
 <p align="center">
   <img src="/images/GitHub-Images/uni-website1.png" alt="Preview" width="800">
@@ -47,7 +53,7 @@ On my employee page I am utilizing AXIOS to read the JSON data for my project ha
 <p align="center">
   The user message board using real-time validation, when the user is hovering over the submit button,
   if the fields are incorrectly filled out, it will light up with a redish-glow to show the user that
-  the message can't be sent. Using JavaScript the data won't be sent using event.preventDefault();.
+  the message can't be sent. Using JavaScript the data won't be sent using <code>event.preventDefault();</code>.
 </p>
 
 <p align="center">
@@ -72,13 +78,14 @@ On my employee page I am utilizing AXIOS to read the JSON data for my project ha
 </p>
 
 <p align="center">
-  The employee (mine) page of Jamie, using alot of JavaScript animations and events, for example the circle tracking the mouse live, animated bars, a slideshow of images and
+  The employee (mine) page of Jamie, using a lot of JavaScript animations and events, for example the circle tracking the mouse live, animated bars, a slideshow of images and
   also a project handler using AXIOS to read JSON data.
 </p>
 
-
+---
 
 ## ⚙️ Installation
+
 ```bash
 git clone https://github.com/jamielarsson/projektet.git
 cd projektet
