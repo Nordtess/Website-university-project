@@ -82,6 +82,14 @@ On my employee page I am utilizing AXIOS to read the JSON data for my project ha
   also a project handler using AXIOS to read JSON data.
 </p>
 
+<p align="center">
+  <img src="/images/GitHub-Images/uni-website-mobile.png" alt="Preview" width="800">
+</p>
+
+<p align="center">
+  The mobile version with a standard hamburger menu for the links, automatically changes to mobile version when the screen width goes < 800px.
+</p>
+
 ---
 
 ## ⚙️ Installation
