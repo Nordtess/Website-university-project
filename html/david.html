@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David</title>
+
+
+
+    <!-- Google font links. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- CSS Stylesheet links. -->
+    <link rel="stylesheet" href="/css/template.css">
+    <link rel="stylesheet" href="/css/david.css">
+    <!-- JavaScript links. -->
+    <script src="/javascript/template.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/javascript/david.js"></script>
+
+
+
+
+
+</head>
+
+
+
+<body>
+
+    <nav id="navbar">
+        <button id="hamburger-btn" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul id="navbar-ul">
+            <li><a href="/index.html">
+                    <span class="icon">🏠</span>
+                    <span class="link-text">Home</span>
+                </a></li>
+            <li><a href="/html/contact.html">
+                    <span class="icon">📧</span>
+                    <span class="link-text">Contact</span>
+                </a></li>
+            <li><a href="/html/employee.html">
+                    <span class="icon">👥</span>
+                    <span class="link-text">Employees</span>
+                </a></li>
+        </ul>
+
+
+    </nav>
+
+
+    <main id="main-area">
+        <section id="profile">
+            <h1>David - CEO</h1>
+
+            <img src="/images/david/portrait.jpg" alt="David">
+            <p>Hi, I’m David, CEO of North Design Web Studios. We design and build clean, fast, and accessible websites
+                and web apps that turn ideas into real results. My focus is simple: thoughtful UX, modern front-end
+                engineering, and a transparent process from first sketch to launch. If you value craft and clear
+                communication, you’re in the right place.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div id="project-filtering"> <input type="text" id="filter" placeholder="Filter projects...">
+                <button id="sort-az">Sort A–Ö</button>
+                <button id="sort-za">Sort Ö–A</button>
+            </div>
+            <div id="project-list">
+            </div>
+        </section>
+
+        <section id="gallery" data-images="/images/david/slider1.jpg,/images/david/slider2.jpg,/images/david/slider3.jpg">
+            <h2>Gallery</h2>
+            <button id="prev"> &#x2B05;</button>
+
+            <img id="slide" alt="">
+            <button id="next"> &#x27A1;</button>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill" data-level="95"><span>Leadership</span>
+                <div class="bar">
+                    <div class="fill"></div>
+                </div>
+            </div>
+            <div class="skill" data-level="30"><span>Coding</span>
+                <div class="bar">
+                    <div class="fill"></div>
+                </div>
+            </div>
+            <div class="skill" data-level="75"><span>Optimization</span>
+                <div class="bar">
+                    <div class="fill"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>

@@ -1,0 +1,27 @@
+/* Intro */
+#profile-intro{
+  display:flex; flex-direction:column; align-items:center; gap:1rem;
+  max-width:1100px; margin:2rem auto; padding:0 1rem;
+}
+#profile-photo{
+  max-width:350px; width:100%; height:auto; border-radius:12px; border:2px solid #333; display:block; margin:0 auto;
+}
+#profile-intro h1,#profile-intro p{ text-align:center; }
+#profile-intro h1{ font-size:2rem; margin:.5rem 0 1rem; }
+#profile-intro p{ max-width:65ch; margin:0 auto; line-height:1.5; }
+@media (min-width:768px){
+  #profile-photo{ max-width:500px; }
+  #profile-intro h1{ font-size:2.5rem; }
+}
+
+/* Gallery */
+#gallery,#projects{ max-width:1100px; margin:2rem auto; padding:0 1rem; }
+.gallery{ display:grid; grid-template-columns:auto 1fr auto; gap:.75rem; align-items:center; }
+#gallery-image{ width:100%; height:auto; border:1px solid #222; border-radius:8px; }
+#gal-prev,#gal-next{ background:#111; color:#fff; border:1px solid #333; border-radius:8px; padding:.5rem .75rem; cursor:pointer; }
+
+/* Projects */
+#projects-list{ display:grid; gap:1rem; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); margin-top:1rem; }
+.proj-card{ border:1px solid #222; background:#111; border-radius:10px; padding:1rem; }
+.proj-card h3{ margin-bottom:.25rem; font-size:1.05rem; }
+.proj-card .proj-client{ opacity:.8; margin-bottom:.5rem; }

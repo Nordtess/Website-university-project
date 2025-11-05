@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamie</title>
+
+
+
+    <!-- Google font links. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- CSS Stylesheet links. -->
+    <link rel="stylesheet" href="/css/template.css">
+    <link rel="stylesheet" href="/css/jamie.css">
+
+    <!--Axios link.-->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <!-- JavaScript links. -->
+    <script src="/javascript/template.js"></script>
+    <script defer src="/javascript/jamie.js"></script>
+
+
+
+
+
+
+</head>
+
+
+
+<body>
+
+    <nav id="navbar">
+        <button id="hamburger-btn" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul id="navbar-ul">
+            <li><a href="/index.html">
+                    <span class="icon">🏠</span>
+                    <span class="link-text">Home</span>
+                </a></li>
+            <li><a href="/html/contact.html">
+                    <span class="icon">📧</span>
+                    <span class="link-text">Contact</span>
+                </a></li>
+            <li><a href="/html/employee.html">
+                    <span class="icon">👥</span>
+                    <span class="link-text">Employees</span>
+                </a></li>
+        </ul>
+
+
+    </nav>
+
+    <div class="circle"></div>
+
+
+    <main id="main-area">
+
+        <h1>Chief of science</h1>
+
+        <h2>Jamie</h2>
+
+
+        <div class="layout">
+            <div id="profile-area">
+                <div id="profile-image">
+                    <img src="/images/jamie/jamieprofile1.png" alt="">
+                </div>
+                <div id="profile-text">
+                    <p>As a Data Scientist, my mission is simple: convince people I'm advancing the future of software,
+                        while secretly breaking everything in the name of “innovation.”
+                        I specialize in releasing beta versions that never leave beta,
+                        and publishing research papers no one — not even I — fully understand.</p>
+                    <p>I design algorithms that promise to change the world,
+                        but in reality can't even sort a list without crashing.
+                        My machine learning models are trained on datasets so biased
+                        that even my coffee machine refuses to recognize me without a lab coat.</p>
+                    <p>I offer “open-source contributions” that require 200 dependencies,
+                        three obscure compilers, and a ritual sacrifice just to run “Hello World.”
+                        Every bug I fix introduces two new ones —
+                        but that's not a mistake, that's job security.</p>
+                    <p>If you installed my software, congratulations — your bugs are now my legacy.
+                        And if you cited my research, well…
+                        let's just say the replication crisis now has a new mascot.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="layout">
+            <div id="skillbar-area">
+                <div id="skillbar">
+                    <p id="current-skills">Current skills</p>
+                    <div class="skill">
+                        <div class="skill-name">HTML</div>
+                        <div class="skill-per skill-90"></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">CSS</div>
+                        <div class="skill-per skill-90"></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-per skill-30"></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">VUE</div>
+                        <div class="skill-per skill-60"></div>
+                    </div>
+                </div>
+                <div id="skill-text">
+                    <p><strong>HTML:</strong> I can nest divs so deep that even I forget
+                        where they end.
+                        Accessibility?
+                        Sure — if you
+                        consider alt="image123" accessible.</p>
+                    <p><strong>CSS:</strong> I specialize in fixing layouts with margin-top: -999px; and solving all
+                        problems using
+                        !important. My responsive design works perfectly — on my laptop, in exactly one browser, at
+                        exactly 1080p.</p>
+                    <p><strong>JavaScript:</strong> I write code that works… until you refresh the page. My debugging
+                        process is 90%
+                        console.log("???") and 10% crying. If it runs, I call it “optimized.”</p>
+                    <p><strong>Vue:</strong> I build components that are so reusable, I reuse the same bugs in all of
+                        them. Props? Emits?
+                        Lifecycle hooks? Don't worry, I just let Vue figure it out — it usually doesn't.</p>
+                </div>
+                <div id="skill-image">
+                    <img src="/images/jamie/jamieprofile2.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="layout">
+            <div id="slideshow">
+                <p>After inventing the worlds most powerful malware, witness my goals in the gallery</p>
+                <div class="slideshow-row">
+                    <button id="previous" name="previous" aria-label="Previous">&#129092;</button>
+                    <img id="image" src="/images/jamie/jamie1.png" alt="">
+                    <span id="click-me">Click me!</span>
+                    <button id="next" name="next" aria-label="Next">&#129094;</button>
+                </div>
+                <p id="caption"></p>
+            </div>
+        </div>
+
+        <div class="layout">
+            <div id="jamie-projects">
+                <div id="app">
+                    <div class="project-intro">
+                        <p>Below are the black budget projects Jamie developed</p>
+                    </div>
+                    <div class="project-prompt">
+                        <p>Please select a letter or type a name to view projects.</p>
+                    </div>
+                    <div class="project-available">
+                        <span id="project-count-display">No projects available.</span>
+                    </div>
+                    <div class="project-filters">
+                        <label for="filterLetter">Filter by first letter:</label>
+                        <select id="filterLetter">
+                            <option value="">All</option>
+                        </select>
+                        <label for="filterName">Search by name:</label>
+                        <input id="filterName" type="text" placeholder="Type project name...">
+                    </div>
+                    <div class="project-sorting">
+                        <label>Sort all projects:</label>
+                        <button id="sort-az">A-Z</button>
+                        <button id="sort-za">Z-A</button>
+                    </div>
+                    <div class="project-list">
+                        <div id="project-container" class="project-row">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>

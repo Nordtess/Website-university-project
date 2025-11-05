@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Blackshield",
+        "description": "A next-generation cyber defense platform marketed as a protective shield for enterprises and governments. Officially, it provides advanced firewalls, AI-driven threat detection, and zero-day exploit prevention. Unofficially, every deployment quietly routes telemetry back to Dark Harvest, turning customer's own security systems into a global intelligence network.",
+        "image": "/images/jamie/j-projects/project-blackshield.png"
+    },
+    {
+        "name": "Ghosttrace",
+        "description": "A stealth monitoring suite sold to law enforcement and corporate clients as an advanced forensic tracking tool. It traces digital footprints across networks, reconstructs deleted data, and maps hidden user identities. Behind the marketing pitch, Ghosttrace doubles as a covert surveillance backdoor, ensuring Dark Harvest always knows who is watching — and what they are searching for.",
+        "image": "/images/jamie/j-projects/project-ghosttrace.png"
+    },
+    {
+        "name": "Ironwall",
+        "description": "Marketed as an unbreachable digital fortress for critical infrastructure and financial institutions. Ironwall offers end-to-end encryption, adaptive intrusion barriers, and automated disaster recovery. Beneath the surface, every installation quietly interlinks with Dark Harvest's core grid, turning client systems into reinforced nodes within the corporation's hidden empire.",
+        "image": "/images/jamie/j-projects/project-ironwall.png"
+    },
+    {
+        "name": "Nightcore",
+        "description": "An energy-optimization and data-processing engine, promoted as a green-tech solution for companies seeking sustainable IT infrastructure. Nightcore accelerates server performance while reducing power consumption, making it highly attractive for cloud providers and research labs. What clients don't realize is that every cycle saved is redirected into Dark Harvest's distributed compute grid, fueling classified operations far beyond their awareness.",
+        "image": "/images/jamie/j-projects/project-nightcore.png"
+    },
+    {
+        "name": "Stormwatch",
+        "description": "A predictive analytics platform advertised to governments, insurers, and logistics firms as a tool for forecasting natural disasters, economic turbulence, and market instability. It ingests satellite data, financial feeds, and social signals to anticipate global shifts with uncanny accuracy. What buyers fail to suspect is that Stormwatch isn't just predicting chaos — it's subtly nudging events to align with Dark Harvest's long-term strategies.",
+        "image": "/images/jamie/j-projects/project-stormwatch.png"
+    },
+    {
+        "name": "Zerolock",
+        "description": "Positioned as the ultimate endpoint security suite for enterprises, Zerolock promises instant device lockdown, biometric access control, and AI-driven anomaly detection. Customers rely on it to safeguard sensitive assets against breaches and insider threats. Unbeknownst to them, Zerolock includes a silent override protocol, granting Dark Harvest unrestricted entry into any system it protects — turning security into a one-way gate.",
+        "image": "/images/jamie/j-projects/project-zerolock.png"
+    }
+]
