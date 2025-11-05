@@ -24,14 +24,14 @@ On my employee page I am utilizing AXIOS to read the JSON data for my project ha
 Video of the fullscreen version.
 <p align="center">
   <a href="https://youtu.be/t7yqqDNMaSw" target="_blank">
-    <img src="https://img.youtube.com/vi/t7yqqDNMaSw/0.jpg" alt="Watch the video" width="600">
+    <img src="https://img.youtube.com/vi/t7yqqDNMaSw/0.jpg" alt="Watch the video" width="800">
   </a>
 </p>
 
 ## 🖼️ Demo
 
 <p align="center">
-  <img src="/images/GitHub-Images/uni-website1.png" alt="Preview" width="600">
+  <img src="/images/GitHub-Images/uni-website1.png" alt="Preview" width="800">
 </p>
 
 
