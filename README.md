@@ -24,7 +24,7 @@ On my employee page I am utilizing AXIOS to read the JSON data for my project ha
 Video of the fullscreen version.
 <p align="center">
   <a href="https://youtu.be/t7yqqDNMaSw" target="_blank">
-    <img src="/images/GitHub-Images/uni-website-yt.png" alt="Watch the video" width="800">
+    <img src="/images/GitHub-Images/uni-website-yt2.png" alt="Watch the video" width="800">
   </a>
 </p>
 
