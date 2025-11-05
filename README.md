@@ -37,10 +37,6 @@ On my employee page I am utilizing AXIOS to read the JSON data for my project ha
 </p>
 
 <p align="center">
-
-</p>
-
-<p align="center">
   The homepage of the website (index.html) with the presentation of the company.
 </p>
 
@@ -69,6 +65,15 @@ On my employee page I am utilizing AXIOS to read the JSON data for my project ha
 
 <p align="center">
   The employee presentation page that will take the user to their individual pages.
+</p>
+
+<p align="center">
+  <img src="/images/GitHub-Images/uni-website6.png" alt="Preview" width="800">
+</p>
+
+<p align="center">
+  The employee (mine) page of Jamie, using alot of JavaScript animations and events, for example the circle tracking the mouse live, a slideshow of images and
+  also a project handler using AXIOS to read JSON data.
 </p>
 
 
