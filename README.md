@@ -87,7 +87,5 @@ On my employee page I am utilizing AXIOS to read the JSON data for my project ha
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/jamielarsson/projektet.git
-cd projektet
-npm install
-npm start
+git clone https://github.com/Nordtess/Website-university-project.git
+cd Website-university-project
