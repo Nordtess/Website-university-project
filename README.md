@@ -30,7 +30,10 @@ Video of the fullscreen version.
 
 ## 🖼️ Demo
 
-![Preview](/images/GitHub-Images/uni-website1.png)
+<p align="center">
+  <img src="/images/GitHub-Images/uni-website1.png" alt="Preview" width="600">
+</p>
+
 
 
 
