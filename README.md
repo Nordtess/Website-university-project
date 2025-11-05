@@ -1,6 +1,6 @@
 <p align="center">
-🧠 North Design
-</p># 🧠 North Design
+# 🧠 North Design
+</p>#
 A stylish mobile-first business website in a black and white art theme.
 
 ## 💡 Beskrivning
