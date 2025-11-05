@@ -6,7 +6,7 @@ A stylish mobile-first business website in a black and white art theme.
 </div>
 
 ## 💡 Description
-This website was built by me and four other students for a project in a frontend course we had at the university.
+This website was built by me and four other students in VSCode using LiveServer for a project in a frontend course we had at the university.
 The project was about creating a fully functional webpage for an imaginary company called North Design.
 Created with vanilla HTML, CSS, JavaScript and AXIOS to read JSON data.
 
