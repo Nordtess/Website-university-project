@@ -1,219 +1,107 @@
+<div align="center">
+
 # 🧠 North Design
-
-A stylish mobile-first business website in a black and white art theme.
-
-
+A stylistic, mobile-first business website built with a clean black and white art theme.
 
 </div>
 
-
-
 ## 💡 Description
+This project was developed during a university frontend course for an imaginary company named North Design. It demonstrates robust frontend architecture using vanilla HTML, CSS, and JavaScript.
 
-This website was built by me and four other students in VSCode using LiveServer for a project in a frontend course we had at the university.
+**My primary contributions to this group project include:**
 
-The project was about creating a fully functional webpage for an imaginary company called North Design.
-
-Created with vanilla HTML, CSS, JavaScript and AXIOS to read JSON data.
-
-
-
-It's designed with a modern mobile-first approach and use real-time validation with feedback on the user message board.
-
-
-
-I designed the basic look of the website with a clean black and white but still stylistic theme. I also created the whole
-
-template for the css grid-system, the html elements and also the JavaScript functions for the user message board and overall
-
-webpage. I also organized the files after good-practice in the project itself.
-
-
-
-My co-students created their own employee pages based on my design making their own touch on it. On my own employee page I use JavaScript
-
-for animating my elements and the circle tracking the mouse-pointer (not with performance in mind).
-
-
-
-On my employee page I am utilizing AXIOS to read the JSON data for my project handler.
-
-
+* **Core Design & Grid System:** Establishing the basic look with a clean, stylistic black-and-white theme and creating the entire template for the CSS grid system.
+* **Message Board Logic:** Implementing the user message board functionality, including real-time input validation with visual feedback (red/green glow) and preventing form submission using `event.preventDefault()` based on error state.
+* **File Organization:** Structuring the project files according to modular, good-practice conventions.
+* **Advanced JavaScript:** Implementing complex JavaScript animations on my individual employee page, such as a custom mouse-tracking circle (demonstrating dynamic client-side event handling) and animating project elements.
+* **Data Handling:** Utilizing **AXIOS** to read and handle dynamic project data from a JSON file for the project handler.
 
 ---
-
-
 
 ## 🧰 Tech Stack
 
-
-
 <p align="center">
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" title="HTML5"/>
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" title="CSS3"/>
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" title="JavaScript"/>
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-plain.svg" width="40" height="40" title="Axios"/>
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg" width="40" height="40" title="JSON"/>
-
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" alt="HTML5" title="HTML5"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" alt="CSS3" title="CSS3"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript" title="JavaScript"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-plain.svg" width="40" height="40" alt="Axios" title="Axios"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg" width="40" height="40" alt="JSON" title="JSON"/>
 </p>
 
-
-
 ---
-
-
 
 ## 🎥 Demo (YouTube)
 
-
-
 <p align="center">
-
   YouTube video showcasing the fullscreen version.
-
 </p>
-
 <p align="center">
-
   <a href="https://youtu.be/t7yqqDNMaSw" target="_blank">
-
-    <img src="/images/GitHub-Images/uni-website-yt2.png" alt="Watch the video" width="500" height="500">
-
+    <img src="images/GitHub-Images/uni-website-yt2.png" alt="Watch the video" width="500" height="500">
   </a>
-
 </p>
-
-
 
 ---
-
-
 
 ## 🖼️ Screenshots
 
-
-
 <p align="center">
-
-  <img src="/images/GitHub-Images/uni-website1.png" alt="Preview" width="800">
-
+  <img src="images/GitHub-Images/uni-website1.png" alt="Preview" width="800">
 </p>
 
-
-
 <p align="center">
-
-  The homepage of the website (index.html) with the presentation of the company.
-
+  The homepage (index.html), showcasing the company presentation.
 </p>
 
-
-
 <p align="center">
-
-  <img src="/images/GitHub-Images/uni-website3.png" alt="Preview" width="800">
-
+  <img src="images/GitHub-Images/uni-website3.png" alt="Preview" width="800">
 </p>
 
-
-
 <p align="center">
-
-  The user message board using real-time validation, when the user is hovering over the submit button,
-
-  if the fields are incorrectly filled out or if the fields are empty, it will both light up with a redish-glow to show the user that
-
-  the message can't be sent and give different messages below the fields depending on the error. Using JavaScript the data won't be sent using <code>event.preventDefault();</code>.
-
+  User message board utilizing **real-time input validation**. If fields are empty or incorrectly filled out, the submit button provides visual feedback with a reddish glow and specific error messages.
 </p>
 
-
-
 <p align="center">
-
-  <img src="/images/GitHub-Images/uni-website4.png" alt="Preview" width="800">
-
+  <img src="images/GitHub-Images/uni-website4.png" alt="Preview" width="800">
 </p>
 
-
-
 <p align="center">
-
-  When all fields are correctly filled out, when hovering over the submit button, it will show a green light,
-
-  showcasing for the user that the message now can be sent. 
-
+  When all fields are correctly filled out, the submit button lights up green, signaling the user that the message is ready to be sent.
 </p>
 
-
-
 <p align="center">
-
-  <img src="/images/GitHub-Images/uni-website2.png" alt="Preview" width="800">
-
+  <img src="images/GitHub-Images/uni-website2.png" alt="Preview" width="800">
 </p>
 
-
-
 <p align="center">
-
-  The employee presentation page that will take the user to their individual pages.
-
+  The employee presentation page leading to individual portfolio pages.
 </p>
 
-
-
 <p align="center">
-
-  <img src="/images/GitHub-Images/uni-website6.png" alt="Preview" width="800">
-
+  <img src="images/GitHub-Images/uni-website6.png" alt="Preview" width="800">
 </p>
 
-
-
 <p align="center">
-
-  The employee (mine) page of Jamie, using a lot of JavaScript animations and events, for example the circle tracking the mouse live, animated bars, a slideshow of images and
-
-  also a project handler using AXIOS to read JSON data.
-
+  My individual employee page (Jamie), featuring extensive JavaScript interactions, including a live mouse-tracking circle, dynamic animated bars, and a project handler utilizing AXIOS for JSON data consumption.
 </p>
 
-
-
 <p align="center">
-
-  <img src="/images/GitHub-Images/uni-website-mobile.png" alt="Preview" width="800">
-
+  <img src="images/GitHub-Images/uni-website-mobile.png" alt="Preview" width="800">
 </p>
 
-
-
 <p align="center">
-
-  The mobile version with a standard hamburger menu for the links, automatically changes to mobile version when the screen width goes < 800px.
-
-  Alot of the JavaScript code and animations are either customized or removed for the mobile version, for example the light around the submit button on the user message board
-
-  always show a red or green light the moment the user starts giving input since there is no hovering on mobile-phones or tablets.
-
+  Fully responsive mobile version. JavaScript functionality and animations were customized or removed for screen widths &lt; 800px. Validation logic on the message board was adapted for mobile interaction (e.g., immediate feedback instead of hover-based effects).
 </p>
-
-
 
 ---
 
-
-
 ## ⚙️ Installation
 
-
-
 ```bash
+# Clone the repository
+git clone [https://github.com/Nordtess/](https://github.com/Nordtess/)[repository-name]
 
-git clone https://github.com/Nordtess/
+# Navigate into the project folder
+cd [repository-name]
+
+# Open index.html in your browser or use the Live Server VS Code extension.
